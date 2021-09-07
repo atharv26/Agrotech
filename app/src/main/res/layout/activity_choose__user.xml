@@ -1,0 +1,63 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:accessibilityHeading="false"
+        android:gravity="center_horizontal|center_vertical"
+        tools:context=".Choose_User">
+
+
+        <ImageButton
+            android:id="@+id/b1"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-10dp"
+            android:background="@drawable/home"
+            android:padding="20dp"
+            android:src="@drawable/home" />
+
+
+
+        <ImageButton
+            android:id="@+id/b2"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/b1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#005"
+            android:padding="20dp"
+            android:src="@drawable/cropinfo" />
+        <ImageButton
+            android:id="@+id/b3"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/b2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#005"
+            android:padding="20dp"
+            android:src="@drawable/customer" />
+
+
+
+        <ImageButton
+            android:id="@+id/b4"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/b3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#005"
+            android:padding="20dp"
+            android:src="@drawable/farmer1" />
+
+
+    </RelativeLayout>
+</ScrollView>
